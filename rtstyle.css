@@ -1,0 +1,808 @@
+.game-area{
+
+ position:relative;
+margin-top: 5%;
+    margin-left: 25%;
+    cursor:default;
+    
+}
+
+.spinButton{
+    z-index: 10;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -300px;
+    border: 15px solid grey;
+    border-radius: 25px;
+    padding: 15px 10px 10px 20px;
+    font-size: 20px;
+    font-family: Impact, Charcoal, sans-serif !important;
+    color: white;
+    width: 300px;
+    height: 490px;
+}
+
+.outcome-profit{
+text-align: right;
+    font-size: 24px;
+    height:60px
+
+}
+
+.outcome-profit-val{
+    margin-top:-50px;
+	float:right;
+
+    text-align: right;
+    font-size: 25px;
+    height:40px
+
+}
+
+
+.outcome{
+    
+    width:230px;
+    border: 2px solid white;
+    font-size: 180px;
+    text-align: center;
+    background: #a90329;
+}
+
+
+.chatButton{
+
+    border: 5px solid grey;
+    background:#475360;
+     border-radius:25px;
+
+
+    outline:none;
+    color:white;
+        cursor: pointer;
+}
+
+.chatButton:hover{
+background:#87CEEB;
+   cursor: pointer;
+outline:none;
+}
+
+#clearChipButton{
+    position: absolute;
+    border: 5px solid grey;
+    background: #475360;
+    border-radius: 25px;
+    margin-top: 217px;
+    margin-left: 890px;
+    width: 71px;
+    height: 75px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Impact, Charcoal, sans-serif !important;
+    z-index: 10;
+
+}
+#clearChipButton:hover{
+background:#87CEEB;
+   cursor: pointer;
+outline:none;
+}
+
+
+.spinButton button{
+    position: absolute;
+    border: 5px solid grey;
+    background:#475360;
+     border-radius:25px;
+    margin-top: -69px;
+    margin-left: 345px;
+ width:255px;
+        height: 75px;
+    outline:none;
+    color:white;
+        cursor: pointer;
+}
+
+.spinButton button:hover{
+background:#87CEEB;
+   cursor: pointer;
+outline:none;
+}
+
+.spinButton button:disabled:hover{
+    background:#475360;
+cursor:default;
+outline:none;
+color:grey;
+}
+
+.spinButton button:disabled{
+    background:#475360;
+cursor:none;
+outline:none;
+color:grey;
+}
+
+
+.chip-size-input{
+    background:#475360;
+    z-index:10;
+ position:absolute;
+    margin-top: 219px;
+    margin-left: 355px;
+    border: 5px solid grey;
+     border-radius:25px;
+    padding: 15px 10px 10px 20px;
+          font-size: 20px;
+  font-family: Impact, Charcoal, sans-serif !important;
+    color: white;
+    width:250px;
+        height: 74px;
+}
+
+.chip-size-input input{
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    background: #5E778F;
+    margin-left: 20px;
+    width:100px;
+    outline:none;
+    border-radius:25px;
+    text-align: center;
+        color: white;
+}
+
+.game-area button{
+
+    cursor:default;
+}
+
+.rt {
+  position:absolute;
+  margin-left:-11px;
+  margin-top:50px;
+  width: 986px;
+  height: 340px;
+  border: 10px solid grey;
+  border-radius: 15px;
+  background: #34495e;
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+cursor:default;
+}
+
+.tg p {
+  position:absolute;
+  margin-left: 2px;
+  margin-top:-12px;
+  text-align:center;
+        -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+cursor:default;
+
+}
+
+.f12 p {
+  margin-left: 8px;
+}
+
+
+.rt-input-area{
+    position: absolute;
+
+    border: none;
+
+    margin-top: 219px;
+    margin-left: 8px;
+    width: 947px;
+    height: 74px;
+}
+
+.bet-input-info{
+background:#475360;
+    position: absolute;
+    border: 5px solid grey;
+    pointer-events: none;
+    margin-top: 0px;
+    margin-left: 614px;
+    width: 247px;
+    height: 74px;
+    border-radius: 25px;
+      font-size: 20px;
+  font-family: Impact, Charcoal, sans-serif !important;
+    color: white;
+}
+
+.bet-input-info span{
+
+ position: absolute;
+    margin-top: 8px;
+    margin-left: 25px;
+
+}
+
+
+
+.rt-inner{
+z-index: 1;
+position: absolute;
+margin-top: 10px;
+margin-left: 9px;
+width: 940px;
+height:203px;
+border-radius: 25px; 
+border:15px solid grey;
+pointer-events:none;
+
+}
+.rt-inner-2{
+z-index: 1;
+position: absolute;
+margin-top: 305px;
+margin-left: 74px;
+width: 810px;
+height:195px;
+border-radius: 25px; 
+border:15px solid grey;
+pointer-events:none;
+}
+.tg {
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 23px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 20px;
+  font-family: Impact, Charcoal, sans-serif !important;
+  text-align:center;
+width:918px;
+}
+
+
+.tg td {
+  padding: 15px 20px;
+  overflow: hidden;
+  word-break: normal;
+  border: 1px solid grey;
+
+  height: 58px;
+
+}
+
+.tg .tg-blue {
+  background-color: #475360;
+  color: #ffffff;
+
+}
+
+.tg-blue p{
+  position:absolute;
+}
+.tg-blue button{
+ background: none;
+ position:absolute;
+ outline:none;
+ border:none;
+ position: absolute;
+ width:68px;
+ height:60px;
+ margin-left:-33px;
+ margin-top:-30px;
+    cursor:pointer;
+}
+
+
+.tg .tg-red {
+
+  background-color:#a90329;
+  color: #efefef;
+}
+
+.tg .tg-zero {
+  background-color: #009901;
+  color: white;
+}
+
+.tg .tg-black {
+  background-color: black;
+  color: #efefef;
+
+}
+
+
+.street-bet{
+    position: absolute;
+    width: 45px;
+    height: 10px;
+
+    margin-left: -10px;
+    margin-top: 23px;
+    z-index: 1;
+	cursor:pointer;
+}
+.ds-bet{
+    position: absolute;
+    width: 21px;
+    height: 10px;
+	cursor:pointer;
+    margin-left: 35px;
+    margin-top: 23px;
+    z-index: 1;
+}
+
+.four-bet{
+    position: absolute;
+    width: 21px;
+    height: 10px;
+	cursor:pointer;
+    margin-left: 35px;
+    margin-top: 81px;
+    z-index: 1;
+}
+
+.tri1-bet{
+    position: absolute;
+    width: 21px;
+    height: 12px;
+	cursor:pointer;
+    margin-left: 35px;
+    margin-top: -35px;
+    z-index: 1;
+}
+
+.tri2-bet{
+       position: absolute;
+    width: 21px;
+    height: 12px;
+	cursor:pointer;
+    margin-left: 35px;
+    margin-top: 23px;
+    z-index: 1;
+}
+.split03-bet{
+    position: absolute;
+    width: 20px;
+    height: 42px;
+	cursor:pointer;
+    margin-left: 35px;
+    margin-top: -77px;
+    z-index: 1;
+}
+.split02-bet{
+    position: absolute;
+    width: 20px;
+    height: 46px;
+	cursor:pointer;
+    margin-left: 35px;
+    margin-top: -23px;
+
+    z-index: 1;
+}
+.split01-bet{
+     position: absolute;
+    width: 20px;
+    height: 46px;
+	cursor:pointer;
+    margin-left: 35px;
+    margin-top: 34px;
+    z-index: 1;
+	
+}
+
+.s1Chip,.s2Chip,.s3Chip, .chip, .SVchip, .SHchip, .cnChip, .dozenChip, .halfChip, .streetChip, .dsChip, .fourChip, .tri1Chip,.tri2Chip {
+  width:31px;
+  height:31px;
+  padding-top:4px;
+    font-family: Impact, Charcoal, sans-serif !important;
+  font-size:13px;
+
+  color: black;
+  position:absolute;
+  border:3px solid white ;
+  background: #FFB84D;
+  border-radius: 45px;
+  text-align:center;
+       -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+cursor:pointer;
+   
+
+    
+}
+
+.chip, .dozenChip, .halfChip{
+      margin-left:12px;
+  margin-top:-13px;
+}
+
+
+
+.fourChip {
+  font: arial;
+cursor: pointer;
+  margin-left:-5px;
+  margin-top:-5px;
+      -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+
+}
+
+.tri1Chip {
+  font: arial;
+
+  margin-left:-5px;
+  margin-top:-5px;
+      -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+
+}
+.tri2Chip {
+  font: arial;
+
+  margin-left:-5px;
+  margin-top:-4px;
+      -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+
+}
+
+.s3Chip {
+  font: arial;
+cursor: pointer;
+  margin-left:-5px;
+  margin-top:6px;
+      -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+
+}
+.s2Chip {
+  font: arial;
+
+  margin-left:-5px;
+  margin-top:10px;
+      -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+
+}
+.s1Chip {
+  font: arial;
+
+  margin-left:-5px;
+  margin-top:11px;
+      -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+
+}
+
+.streetChip {
+  font: arial;
+
+  margin-left:7px;
+  margin-top:-4px;
+      -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+
+}
+.dsChip {
+  font: arial;
+
+  margin-left:-5px;
+  margin-top:-4px;
+      -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+  
+}
+
+.SVchip {
+  font: arial;
+
+  margin-left:-8px;
+  margin-top:10px;
+      -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+
+}
+
+.SHchip {
+  font: arial;
+
+  margin-left:9px;
+  margin-top:-3px;
+      -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+
+}
+
+.cnChip {
+  font: arial;
+
+  margin-left:-8px;
+  margin-top:-4px;
+      -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+
+}
+
+.SHchip:hover{
+
+}
+.SVchip:hover{
+
+}
+.cnChip:hover{
+
+}
+
+
+.tg-zero button {
+ background: none;
+ outline:none;
+ border:none;
+ position: absolute;
+ width:65px;
+ height:180px;
+ margin-left:-33px;
+ margin-top:-87px;
+cursor:pointer;
+}
+
+.tg-zero p{
+margin-left:8px;  
+}
+
+.tg-red button{
+ background: none;
+ outline:none;
+ border:none;
+ position: absolute;
+    width: 66px;
+    height: 60px;
+    margin-left: -33px;
+    margin-top: -30px;
+    cursor:pointer;
+}
+
+.corner-bet{
+ background: none;
+ outline:none;
+ border:none;
+ position: absolute;
+ width:18px;
+ height:15px;
+ margin-left:38px;
+ margin-top:21px;
+ z-index:5;
+           -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+      cursor: pointer;
+}
+
+.split-betV{
+ background: none;
+ outline:none;
+ border:none;
+ position: absolute;
+ width:18px;
+ height:45px;
+ margin-left:38px;
+ margin-top:-22px;
+ z-index:5;
+           -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+    cursor: pointer;
+}
+
+.split-betH{
+ background: none;
+ outline:none;
+ border:none;
+ position: absolute;
+ width:50px;
+ height:21px;
+ margin-left:-12px;
+ margin-top:20px;
+ z-index:5;
+           -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+.tg-black button{
+ background: none;
+ outline:none;
+ border:none;
+ position: absolute;
+    width: 66px;
+    height: 60px;
+    margin-left: -33px;
+    margin-top: -30px;
+    cursor:pointer;
+}
+ 
+.tg-blue-alt{
+  background-color: #475360;
+  color: #ffffff;
+  }
+.tg-red-alt{
+  background-color: #a90329;
+  color: #ffffff;
+  }
+.tg-black-alt{
+  background-color: black;
+  color: #ffffff;
+  }
+  
+  
+.r1 p{
+  margin-left: 85px;
+}
+
+.r2 p{
+  margin-left: 155px;
+}
+
+.r3 p{
+    margin-left: 55px;
+}
+  
+  .r1 button{
+    
+background:none;
+ outline:none;
+ border:none;
+ position: absolute;
+    width: 263px;
+    height: 58px;
+    margin-left: -132px;
+    margin-top: -29px;
+      cursor:pointer;
+    
+  }
+  .r2 button{
+    background:none;
+       outline:none;
+ border:none;
+ position: absolute;
+    width: 394px;
+    height: 58px;
+    margin-left: -197px;
+    margin-top: -29px;
+      cursor:pointer;
+  }
+  .r3 button{
+    background:none;
+  outline:none;
+ border:none;
+ position: absolute;
+width: 198px;
+    height: 58px;
+    margin-left: -99px;
+    margin-top: -29px;
+      cursor:pointer;
+  }
+ 
+.tg-red button:hover {
+  background:rgba(137, 231, 255, 0.6);
+
+}
+
+.tg-black button:hover {
+  background:rgba(137, 231, 255, 0.6);
+}
+
+.tg-blue button:hover {
+  background:rgba(137, 231, 255, 0.6);
+}
+
+.tg-red-alt button:hover {
+  background:rgba(137, 231, 255, 0.6);
+}
+
+.tg-black-alt button:hover {
+ background:rgba(137, 231, 255, 0.6);
+}
+
+.tg-blue-alt button:hover {
+  background:rgba(137, 231, 255, 0.6);
+}
+
+.tg-zero button:hover {
+  background:rgba(137, 231, 255, 0.6);
+}
+
+.select button{
+   background:rgba(137, 231, 255, 0.6);
+}
+
+
